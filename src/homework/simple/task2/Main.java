@@ -89,7 +89,7 @@ public class Main {
         // перебираем строку
         // и получаем в массив чисел соответвенно порядковому номеру
         // суммируем числа из массива чисел
-        for (int i=0; i < 3; i++)
+        for (int i = 0; i < 3; i++)
         {
             myArray[i]=Integer.parseInt(String.valueOf(workString.charAt(i)));
             x = x + myArray[i];
