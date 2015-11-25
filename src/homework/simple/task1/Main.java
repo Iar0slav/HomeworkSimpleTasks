@@ -12,8 +12,8 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
 
-        final String GREETINGS  = "Welcome to program from task1. It is works only with int values.";
         final String EXIT       = "exit";
+        final String GREETINGS  = "Welcome to program from task1. It is works only with int values. \n If you want to exit, type " + EXIT;
         final String FIRSTINT   = "Please, enter first int, or " + EXIT + " to finish.";
         final String SECONDINT  = "Please, enter second int, or " + EXIT + " to finish.";
         final String THIRDINT   = "Please, enter third int, or " + EXIT + " to finish.";
