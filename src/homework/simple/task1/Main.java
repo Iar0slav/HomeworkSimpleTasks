@@ -1,5 +1,7 @@
 package homework.simple.task1;
 
+import homework.simple.utilities.CheckForInt;
+
 import java.util.Scanner;
 
 // Если Java 8, stream API то для среднего из массива можно использовать
@@ -12,15 +14,15 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
 
-        final String EXIT       = "exit";
-        final String GREETINGS  = "Welcome to program from task1. It is works only with int values. \n If you want to exit, type " + EXIT;
-        final String FIRSTINT   = "Please, enter first int, or " + EXIT + " to finish.";
-        final String SECONDINT  = "Please, enter second int, or " + EXIT + " to finish.";
-        final String THIRDINT   = "Please, enter third int, or " + EXIT + " to finish.";
-        final String REPEAT     = "Enter int please, or " + EXIT + " to finish.";
-        final String NONINTEGER = "You've entered non-integer number";
-        final String AVERAGE    = "The average is: ";
-        final String CLOSESTINT = "The closest Integer is: ";
+        final String EXIT           =   "exit";
+        final String GREETINGS      =   "Welcome to program from task1. It is works only with int values. \n If you want to exit, type " + EXIT;
+        final String FIRSTINT       =   "Please, enter first int, or " + EXIT + " to finish.";
+        final String SECONDINT      =   "Please, enter second int, or " + EXIT + " to finish.";
+        final String THIRDINT       =   "Please, enter third int, or " + EXIT + " to finish.";
+        final String REPEAT         =   "Enter int please, or " + EXIT + " to finish.";
+        final String NONINTEGER     =   "You've entered non-integer number";
+        final String AVERAGE        =   "The average is: ";
+        final String CLOSESTINT     =   "The closest Integer is: ";
 
         //массив хранения чисел
         int[] intArray = new int[3];

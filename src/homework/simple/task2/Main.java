@@ -1,5 +1,7 @@
 package homework.simple.task2;
 
+import homework.simple.utilities.CheckForInt;
+
 import java.util.Scanner;
 
 

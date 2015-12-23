@@ -1,4 +1,4 @@
-package homework.simple.task3;
+package homework.simple.utilities;
 
 /**
  * Created by Iaroslav on 25.11.2015.
